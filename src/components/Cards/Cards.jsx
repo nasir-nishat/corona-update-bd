@@ -25,7 +25,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              Number of active cases of COVID-19.
+              আক্রান্ত বেক্তির সংখ্যা
             </Typography>
           </CardContent>
         </Grid>
@@ -41,7 +41,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-             করনা ভাইরাস COVID-19.
+             সুস্থ বেক্তির সংখ্যা
             </Typography>
           </CardContent>
         </Grid>
@@ -57,7 +57,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              সদফদফাসদফসদ.
+              মৃত বেক্তির সংখ্যা
             </Typography>
           </CardContent>
         </Grid>
