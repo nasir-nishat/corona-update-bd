@@ -41,7 +41,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
               {new Date(lastUpdate).toDateString()}
             </Typography>
             <Typography variant="body2" component="p">
-              Number of recoveries from COVID-19.
+             করনা ভাইরাস COVID-19.
             </Typography>
           </CardContent>
         </Grid>
