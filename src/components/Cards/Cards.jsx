@@ -16,7 +16,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.infected)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              Infected
+              আক্রান্ত
             </Typography>
             <Typography variant="h5" component="h2">
               <CountUp start={0} end={confirmed.value} duration={2.75} separator="," />
@@ -32,7 +32,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.recovered)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              Recovered
+              সুস্থ
             </Typography>
             <Typography variant="h5" component="h2">
               <CountUp start={0} end={recovered.value} duration={2.75} separator="," />
@@ -48,7 +48,7 @@ const Info = ({ data: { confirmed, recovered, deaths, lastUpdate } }) => {
         <Grid item xs={12} md={3} component={Card} className={cx(styles.card, styles.deaths)}>
           <CardContent>
             <Typography color="textSecondary" gutterBottom>
-              Deaths
+              মৃত
             </Typography>
             <Typography variant="h5" component="h2">
               <CountUp start={0} end={deaths.value} duration={2.75} separator="," />
